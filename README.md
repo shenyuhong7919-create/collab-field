@@ -1,126 +1,121 @@
+[English](README.en.md) · **简体中文**
+
 # COLLAB FIELD / 协作光场
 
-By **一只黄学长** · 2026
+作者：**一只黄学长** · 2026
 
-A data-driven, single-page "agent ops" visual built on canvas. Twelve independent
-pages share one rendering engine; each page carries a different c0 / hi / fil
-palette. The `PAL` button switches between them. The right rail replays a
-synthetic task ledger in real time.
+> [**▶ 在线预览 / LIVE DEMO**](https://shenyuhong7919-create.github.io/collab-field/)
+>
+> 主入口为 09 综合总览（金色）；进入后点顶部 `PAL` 可切换 12 套配色。
 
-![COLLAB FIELD hero](screenshots/hero-1920.webp)
+一个数据驱动的单页「agent ops」画布视觉。12 个独立页面共用一套渲染引擎，每页一套 c0 / hi / fil 配色。点击顶部 `PAL` 按钮切换；右侧竖栏会实时回放一份合成的任务台账。
 
-![12 palettes](screenshots/all-12.webp)
+![COLLAB FIELD 主视觉](screenshots/hero-1920.webp)
 
-[Ultrawide 3440×1440 preview](screenshots/hero-3440.webp) ·
-[palette index screenshot](screenshots/palettes.png)
+![12 套配色](screenshots/all-12.webp)
 
-## Quick start
+[3440×1440 超宽预览](screenshots/hero-3440.webp) ·
+[配色总览截图](screenshots/palettes.png)
 
-No build step is needed to view the pages. From the repository root:
+## 在线预览
+
+- [主入口 · 09 综合总览](https://shenyuhong7919-create.github.io/collab-field/)（金色）
+- [十二幕配色总览](https://shenyuhong7919-create.github.io/collab-field/palettes.html)
+- 单页：`collab-01.html` … `collab-12.html`，也可以从主入口的 `PAL` 弹层直接切换
+
+在线版与本地版是同一份静态文件，没有服务端依赖。
+
+## 快速开始
+
+在线预览不需要安装任何东西，直接打开上面的链接即可。
+
+本地查看也不需要构建，在仓库根目录起一个静态服务器：
 
 ```bash
 python3 -m http.server 8000
-# open http://localhost:8000/
+# 打开 http://localhost:8000/
 ```
 
-Opening `index.html` directly also works, but some browsers block local audio
-and remote fonts on `file://`.
+直接双击 `index.html` 也能看，但部分浏览器在 `file://` 下会拦截本地音频和远程字体。
 
-- `index.html` — main entry, same as 09 综合总览 (gold)
-- `palettes.html` — palette index, links to all 12
-- `collab-01.html` … `collab-12.html` — individual palettes
+- `index.html` — 主入口，等同 09 综合总览（金色）
+- `palettes.html` — 配色总览，链接到 12 套
+- `collab-01.html` … `collab-12.html` — 12 套独立配色页
 
-Designed for 3440×1440 and 1920×1080. At ≥21:10 the bottom panels move to the
-right vertical rail; below that they stay under the stage.
+设计基准为 3440×1440 与 1920×1080。视口宽高比 ≥21:10 时，底部面板会移到右侧竖栏；更窄时留在舞台下方。
 
-## Controls
+## 操作
 
-| Control | Action |
+| 控件 | 动作 |
 |---|---|
-| `PAL` | Open the 6×2 palette panel; each cell opens that palette page |
-| BGM / `M` | Play or pause the background loop; the slider sets volume |
-| `C` | Toggle the console overlay |
-| `F` / double-click | Fullscreen |
+| `PAL` | 打开 6×2 配色面板；每个色块进入对应页面 |
+| BGM / `M` | 播放或暂停环境音；滑杆调音量 |
+| `C` | 显示/隐藏控制台叠层 |
+| `F` / 双击 | 全屏 |
 
-## Data
+## 数据
 
-All ledger content is synthetic. The demo contains 128 tasks across 12
-workstreams and 24 fictional tool codenames, with 9 open gaps and 6 of 24
-proofs verified.
+所有台账内容都是合成数据：128 条任务、12 个工作流、24 个虚构工具代号、9 个未闭合缺口、6/24 条凭据。
 
-- `data/demo-network.json` — the ledger consumed by the pages
-- `src/make_demo.py` — deterministic generator (seed `20261028`); stdlib only
-- No real people, organizations, projects, email addresses, phone numbers, file
-  paths, or machine identifiers are included.
+- `data/demo-network.json` — 页面读取的合成台账
+- `src/make_demo.py` — 固定种子 `20261028` 的生成器，只用标准库
+- 不含真实人物、机构、项目、邮箱、电话、文件路径或机器标识
 
-The right rail's `THOUGHT / CODE / RESULT` logs, the task feed, the dispatch
-panel, and the counters all read from that JSON. Edit the JSON and rebuild to
-change the story.
+右侧竖栏的 `THOUGHT / CODE / RESULT` 日志、任务流、工作流面板与所有计数都来自这份 JSON。修改 JSON 后重新构建即可改变故事。
 
-## Build
+## 构建
 
 ```bash
 python3 src/build.py          # collab-01..12.html + index.html
 python3 src/build_palettes.py # palettes.html
 ```
 
-Python 3.9+ and the standard library are enough. The builder reads:
+Python 3.9+ 与标准库即可。构建器读取：
 
-- `src/haloflux-lab.html` — upstream HALOFLUX source, with its copyright header
-  intact; the build only performs palette mapping and data injection
-- `src/sidebar.tpl` — live-rail template
-- `data/palettes.json` — 12 c0 / hi / fil palettes and shared neutrals
-- `data/demo-network.json` — the synthetic ledger
+- `src/haloflux-lab.html` — 上游 HALOFLUX 源文件，保留版权头；构建只做配色映射与数据注入
+- `src/sidebar.tpl` — 右侧实时竖栏模板
+- `data/palettes.json` — 12 套 c0 / hi / fil 与共享中性色
+- `data/demo-network.json` — 合成台账
 
-## Audio
+## 音频
 
-`audio/bgm.m4a` is a 48-second original ambient loop generated for this
-repository and released under CC0 1.0. It is optional. Replace it with a track
-you have rights to, or delete it; if the file is missing, the player hides itself
-after the load error. Do not commit music you do not own: `.gitignore` excludes
-`audio/*.mp3` and `audio/*.wav` so a personal track is not accidentally pushed.
+`audio/bgm.m4a` 是为本仓库生成的 48 秒原创环境音，按 CC0 1.0 发布，可选。你可以替换成自己有授权的音轨，或直接删除；文件缺失时，播放器会在加载失败后自动隐藏。不要提交没有授权的音乐：`.gitignore` 已排除 `audio/*.mp3` 与 `audio/*.wav`，避免误传个人音轨。
 
-## License
+## 许可
 
 Copyright (c) 2026 一只黄学长.
 
-**PolyForm Noncommercial License 1.0.0 — source-available, not OSI open source.
-Noncommercial use only; commercial use is strictly prohibited.** See
-[`LICENSE`](LICENSE). The build scripts, generated pages, and synthetic ledger in
-this repository are released under the same license.
+**PolyForm Noncommercial License 1.0.0 — 源码公开（source-available），但不是 OSI 开源；仅限非商用，严禁商业使用。** 详见 [`LICENSE`](LICENSE)。本仓库的构建脚本、生成页面与合成台账也按同一许可发布。
 
-This is a derivative work. Required notices and upstream credits are in
-[`NOTICE`](NOTICE):
+这是衍生作品，Required Notice 与上游署名见 [`NOTICE`](NOTICE)：
 
-- **HALOFLUX** — Copyright (c) 2026 Ryder191 (RYDER CODE / Ms MAIKEBAIs CAT),
-  <https://github.com/Ryder191/haloflux>. PolyForm Noncommercial 1.0.0.
-- **ION 离子回路 / agent-display v8.0 theme 08** — Copyright (c) 2026 赛博老爸,
-  <https://github.com/cyberdaddyleo/agent-display>. PolyForm Noncommercial 1.0.0.
-  The 12 palette values are a re-named reference to that theme.
-- **JetBrains Mono** — SIL Open Font License 1.1, loaded from Google Fonts.
-- **audio/bgm.m4a** — original, CC0 1.0.
+- **HALOFLUX** — Copyright (c) 2026 Ryder191（RYDER CODE / Ms MAIKEBAIs CAT），
+  <https://github.com/Ryder191/haloflux>，PolyForm Noncommercial 1.0.0。
+- **ION 离子回路 / agent-display v8.0 主题 08** — Copyright (c) 2026 赛博老爸，
+  <https://github.com/cyberdaddyleo/agent-display>，PolyForm Noncommercial 1.0.0。
+  12 套配色值是对该主题的重新命名引用。
+- **JetBrains Mono** — SIL Open Font License 1.1，通过 Google Fonts 加载。
+- **audio/bgm.m4a** — 原创，CC0 1.0。
 
-No commercial license is offered for HALOFLUX or the ION palette source. If you
-need a permissive or commercial license, replace the rendering engine and the
-palette source with works you have rights to use; changing this repository's
-license alone is not enough.
+HALOFLUX 与 ION 配色来源均不提供商业许可。如你需要宽松或商业许可，必须替换渲染引擎和配色来源；只改本仓库的 `LICENSE` 不够。
 
-## Privacy
+## 隐私
 
-The pages make no analytics or tracking requests. Everything except Google Fonts
-and the local audio file is self-contained. For a fully offline build, remove the
-Google Fonts `<link>` from `src/haloflux-lab.html`; the CSS falls back to system
-monospace.
+页面不做统计或追踪请求。除了 Google Fonts 与本地音频文件，页面是自包含的。要完全离线，可以删掉 `src/haloflux-lab.html` 里的 Google Fonts `<link>`；CSS 会回退到系统等宽字体。
 
-## Credits
+## 署名
 
-- Visual engine, composition, and motion: **HALOFLUX by Ryder191**
-- Palette reference: **ION 离子回路 / agent-display theme 08 by 赛博老爸**
-- Typeface: **JetBrains Mono** (OFL)
-- Author / build / synthetic ledger / 12-palette adaptation: **一只黄学长**
+- 视觉引擎、构图与动效：**HALOFLUX by Ryder191**
+- 配色参考：**ION 离子回路 / agent-display 主题 08 by 赛博老爸**
+- 字体：**JetBrains Mono**（OFL）
+- 作者 / 构建 / 合成台账 / 12 套配色适配：**一只黄学长**
 
-## Deploying
+## 部署
 
-The repository root is already a static site. For GitHub Pages: push the
-repository, then **Settings → Pages → Deploy from a branch → `main` / root**.
-No server-side code is required.
+仓库根目录本身就是静态站点。本仓库已开启 GitHub Pages：
+
+**Settings → Pages → Deploy from a branch → `main` / root**
+
+- 在线地址：<https://shenyuhong7919-create.github.io/collab-field/>
+- 如果你 fork 了本仓库，需要在你自己的仓库重新开启 Pages，并把 README 里的预览链接换成你的地址。
+- 不需要任何服务端代码。

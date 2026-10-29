@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Do not commit personal or unlicensed audio.
+audio/*.mp3
+audio/*.wav

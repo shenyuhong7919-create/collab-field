@@ -1,0 +1,1553 @@
+{
+ "meta": {
+  "title": "COLLAB FIELD · synthetic demo ledger",
+  "author": "一只黄学长",
+  "note": "全部为合成数据，不含任何真实个人、组织、项目或联系方式。",
+  "seed": 20261028,
+  "span": "2026-01-06 → 2026-09-26"
+ },
+ "tools": [
+  {
+   "name": "ATLAS",
+   "kind": "agent"
+  },
+  {
+   "name": "BEACON",
+   "kind": "agent"
+  },
+  {
+   "name": "CIRRUS",
+   "kind": "agent"
+  },
+  {
+   "name": "DELTA",
+   "kind": "agent"
+  },
+  {
+   "name": "EMBER",
+   "kind": "agent"
+  },
+  {
+   "name": "FATHOM",
+   "kind": "agent"
+  },
+  {
+   "name": "GLYPH",
+   "kind": "agent"
+  },
+  {
+   "name": "HELIX",
+   "kind": "agent"
+  },
+  {
+   "name": "INDIGO",
+   "kind": "agent"
+  },
+  {
+   "name": "JUNO",
+   "kind": "agent"
+  },
+  {
+   "name": "KITE",
+   "kind": "agent"
+  },
+  {
+   "name": "LUMEN",
+   "kind": "agent"
+  },
+  {
+   "name": "MOSS",
+   "kind": "agent"
+  },
+  {
+   "name": "NOVA",
+   "kind": "agent"
+  },
+  {
+   "name": "ORBIT",
+   "kind": "agent"
+  },
+  {
+   "name": "PULSE",
+   "kind": "agent"
+  },
+  {
+   "name": "QUARTZ",
+   "kind": "agent"
+  },
+  {
+   "name": "RIFT",
+   "kind": "agent"
+  },
+  {
+   "name": "SOL",
+   "kind": "agent"
+  },
+  {
+   "name": "TIDE",
+   "kind": "agent"
+  },
+  {
+   "name": "UMBRA",
+   "kind": "agent"
+  },
+  {
+   "name": "VALE",
+   "kind": "agent"
+  },
+  {
+   "name": "WISP",
+   "kind": "agent"
+  },
+  {
+   "name": "XENON",
+   "kind": "agent"
+  }
+ ],
+ "counters": {
+  "tools": 24,
+  "tasks": 128,
+  "sectors": 12,
+  "gaps": 9,
+  "proof": 6,
+  "proofTotal": 24
+ },
+ "sectorCount": {
+  "研究与洞察": 13,
+  "品牌与叙事": 11,
+  "界面与交互": 13,
+  "原型与实现": 11,
+  "内容与传播": 11,
+  "数据与度量": 10,
+  "交付与归档": 10,
+  "质量与合规": 10,
+  "工具与自动化": 13,
+  "团队与协作": 9,
+  "教育与培训": 9,
+  "知识资产": 8
+ },
+ "secShort": {
+  "研究与洞察": "研究",
+  "品牌与叙事": "品牌",
+  "界面与交互": "界面",
+  "原型与实现": "原型",
+  "内容与传播": "内容",
+  "数据与度量": "数据",
+  "交付与归档": "交付",
+  "质量与合规": "合规",
+  "工具与自动化": "工具",
+  "团队与协作": "协作",
+  "教育与培训": "教育",
+  "知识资产": "知识"
+ },
+ "tasks": [
+  {
+   "id": 1,
+   "date": "2026-01-06",
+   "tool": "UMBRA",
+   "sector": "品牌与叙事",
+   "title": "收敛品牌语气词表",
+   "req": "收敛品牌语气词表",
+   "deliv": "diff-report.html",
+   "ev": "session",
+   "rows": 2388
+  },
+  {
+   "id": 2,
+   "date": "2026-01-07",
+   "tool": "WISP",
+   "sector": "工具与自动化",
+   "title": "排查本地构建缓存",
+   "req": "排查本地构建缓存",
+   "deliv": "index.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 3,
+   "date": "2026-01-10",
+   "tool": "KITE",
+   "sector": "数据与度量",
+   "title": "合并周报指标口径",
+   "req": "合并周报指标口径",
+   "deliv": "summary.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 4,
+   "date": "2026-01-11",
+   "tool": "DELTA",
+   "sector": "交付与归档",
+   "title": "打包版本交付物",
+   "req": "打包版本交付物",
+   "deliv": "spec-v1.2.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 5,
+   "date": "2026-01-13",
+   "tool": "HELIX",
+   "sector": "原型与实现",
+   "title": "搭建可点击原型",
+   "req": "搭建可点击原型",
+   "deliv": "handoff.md",
+   "ev": "session",
+   "rows": 232
+  },
+  {
+   "id": 6,
+   "date": "2026-01-15",
+   "tool": "DELTA",
+   "sector": "品牌与叙事",
+   "title": "校对品牌手册",
+   "req": "校对品牌手册",
+   "deliv": "summary.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 7,
+   "date": "2026-01-17",
+   "tool": "DELTA",
+   "sector": "品牌与叙事",
+   "title": "整理命名候选与禁用词",
+   "req": "整理命名候选与禁用词",
+   "deliv": "index.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 8,
+   "date": "2026-01-20",
+   "tool": "LUMEN",
+   "sector": "交付与归档",
+   "title": "生成变更摘要",
+   "req": "生成变更摘要",
+   "deliv": "demo.json",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 9,
+   "date": "2026-01-22",
+   "tool": "DELTA",
+   "sector": "界面与交互",
+   "title": "重做登录流程线框",
+   "req": "重做登录流程线框",
+   "deliv": "spec-v1.2.md",
+   "ev": "session",
+   "rows": 1493
+  },
+  {
+   "id": 10,
+   "date": "2026-01-24",
+   "tool": "EMBER",
+   "sector": "研究与洞察",
+   "title": "整理用户访谈逐字稿",
+   "req": "整理用户访谈逐字稿",
+   "deliv": "handoff.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 11,
+   "date": "2026-01-26",
+   "tool": "CIRRUS",
+   "sector": "内容与传播",
+   "title": "撰写产品更新日志",
+   "req": "撰写产品更新日志",
+   "deliv": "handoff.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 12,
+   "date": "2026-01-28",
+   "tool": "KITE",
+   "sector": "研究与洞察",
+   "title": "拆分竞品功能矩阵",
+   "req": "拆分竞品功能矩阵",
+   "deliv": "summary.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 13,
+   "date": "2026-01-30",
+   "tool": "DELTA",
+   "sector": "工具与自动化",
+   "title": "整理代理与网络配置",
+   "req": "整理代理与网络配置",
+   "deliv": "run-notes.md",
+   "ev": "session",
+   "rows": 1027
+  },
+  {
+   "id": 14,
+   "date": "2026-02-01",
+   "tool": "FATHOM",
+   "sector": "工具与自动化",
+   "title": "校准自动化脚本参数",
+   "req": "校准自动化脚本参数",
+   "deliv": "review.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 15,
+   "date": "2026-02-04",
+   "tool": "INDIGO",
+   "sector": "交付与归档",
+   "title": "核对交付清单与签收",
+   "req": "核对交付清单与签收",
+   "deliv": "run-notes.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 16,
+   "date": "2026-02-06",
+   "tool": "DELTA",
+   "sector": "研究与洞察",
+   "title": "汇总问卷开放题编码",
+   "req": "汇总问卷开放题编码",
+   "deliv": "index.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 17,
+   "date": "2026-02-07",
+   "tool": "BEACON",
+   "sector": "界面与交互",
+   "title": "梳理空状态与异常态",
+   "req": "梳理空状态与异常态",
+   "deliv": "summary.md",
+   "ev": "session",
+   "rows": 1249
+  },
+  {
+   "id": 18,
+   "date": "2026-02-10",
+   "tool": "TIDE",
+   "sector": "教育与培训",
+   "title": "编写新人上手路径",
+   "req": "编写新人上手路径",
+   "deliv": "review.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 19,
+   "date": "2026-02-12",
+   "tool": "HELIX",
+   "sector": "教育与培训",
+   "title": "整理工具演示脚本",
+   "req": "整理工具演示脚本",
+   "deliv": "index.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 20,
+   "date": "2026-02-13",
+   "tool": "EMBER",
+   "sector": "质量与合规",
+   "title": "跑通核心路径回归",
+   "req": "跑通核心路径回归",
+   "deliv": "run-notes.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 21,
+   "date": "2026-02-16",
+   "tool": "GLYPH",
+   "sector": "研究与洞察",
+   "title": "校准研究问题与假设",
+   "req": "校准研究问题与假设",
+   "deliv": "review.html",
+   "ev": "session",
+   "rows": 1272
+  },
+  {
+   "id": 22,
+   "date": "2026-02-19",
+   "tool": "CIRRUS",
+   "sector": "质量与合规",
+   "title": "复核无障碍检查项",
+   "req": "复核无障碍检查项",
+   "deliv": "summary.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 23,
+   "date": "2026-02-20",
+   "tool": "MOSS",
+   "sector": "内容与传播",
+   "title": "整理专题页文案结构",
+   "req": "整理专题页文案结构",
+   "deliv": "summary.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 24,
+   "date": "2026-02-22",
+   "tool": "JUNO",
+   "sector": "数据与度量",
+   "title": "复核漏斗转化计算",
+   "req": "复核漏斗转化计算",
+   "deliv": "summary.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 25,
+   "date": "2026-02-25",
+   "tool": "ATLAS",
+   "sector": "界面与交互",
+   "title": "校对表单错误提示",
+   "req": "校对表单错误提示",
+   "deliv": "diff-report.html",
+   "ev": "session",
+   "rows": 489
+  },
+  {
+   "id": 26,
+   "date": "2026-02-26",
+   "tool": "EMBER",
+   "sector": "原型与实现",
+   "title": "接入模拟数据与状态",
+   "req": "接入模拟数据与状态",
+   "deliv": "spec-v1.2.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 27,
+   "date": "2026-03-01",
+   "tool": "EMBER",
+   "sector": "原型与实现",
+   "title": "录制交互演示片段",
+   "req": "录制交互演示片段",
+   "deliv": "review.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 28,
+   "date": "2026-03-03",
+   "tool": "LUMEN",
+   "sector": "原型与实现",
+   "title": "实现拖拽排序原型",
+   "req": "实现拖拽排序原型",
+   "deliv": "demo.json",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 29,
+   "date": "2026-03-04",
+   "tool": "BEACON",
+   "sector": "团队与协作",
+   "title": "整理周会同步要点",
+   "req": "整理周会同步要点",
+   "deliv": "run-notes.md",
+   "ev": "session",
+   "rows": 392
+  },
+  {
+   "id": 30,
+   "date": "2026-03-07",
+   "tool": "CIRRUS",
+   "sector": "工具与自动化",
+   "title": "修复批处理路径转义",
+   "req": "修复批处理路径转义",
+   "deliv": "handoff.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 31,
+   "date": "2026-03-08",
+   "tool": "ATLAS",
+   "sector": "数据与度量",
+   "title": "整理事件埋点清单",
+   "req": "整理事件埋点清单",
+   "deliv": "spec-v1.2.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 32,
+   "date": "2026-03-11",
+   "tool": "KITE",
+   "sector": "质量与合规",
+   "title": "整理缺陷优先级",
+   "req": "整理缺陷优先级",
+   "deliv": "spec-v1.2.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 33,
+   "date": "2026-03-13",
+   "tool": "EMBER",
+   "sector": "品牌与叙事",
+   "title": "重写首页价值主张",
+   "req": "重写首页价值主张",
+   "deliv": "summary.md",
+   "ev": "session",
+   "rows": 932
+  },
+  {
+   "id": 34,
+   "date": "2026-03-15",
+   "tool": "JUNO",
+   "sector": "品牌与叙事",
+   "title": "比对两版视觉规范",
+   "req": "比对两版视觉规范",
+   "deliv": "summary.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 35,
+   "date": "2026-03-17",
+   "tool": "DELTA",
+   "sector": "界面与交互",
+   "title": "整理组件命名与变体",
+   "req": "整理组件命名与变体",
+   "deliv": "demo.json",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 36,
+   "date": "2026-03-19",
+   "tool": "LUMEN",
+   "sector": "界面与交互",
+   "title": "绘制移动端导航结构",
+   "req": "绘制移动端导航结构",
+   "deliv": "spec-v1.2.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 37,
+   "date": "2026-03-22",
+   "tool": "FATHOM",
+   "sector": "交付与归档",
+   "title": "整理会议决议与待办",
+   "req": "整理会议决议与待办",
+   "deliv": "run-notes.md",
+   "ev": "session",
+   "rows": 1512
+  },
+  {
+   "id": 38,
+   "date": "2026-03-23",
+   "tool": "KITE",
+   "sector": "数据与度量",
+   "title": "校对看板筛选逻辑",
+   "req": "校对看板筛选逻辑",
+   "deliv": "review.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 39,
+   "date": "2026-03-25",
+   "tool": "ATLAS",
+   "sector": "质量与合规",
+   "title": "校对隐私与授权声明",
+   "req": "校对隐私与授权声明",
+   "deliv": "spec-v1.2.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 40,
+   "date": "2026-03-28",
+   "tool": "RIFT",
+   "sector": "品牌与叙事",
+   "title": "梳理品牌触点清单",
+   "req": "梳理品牌触点清单",
+   "deliv": "demo.json",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 41,
+   "date": "2026-03-29",
+   "tool": "ATLAS",
+   "sector": "工具与自动化",
+   "title": "比较两版运行时日志",
+   "req": "比较两版运行时日志",
+   "deliv": "handoff.md",
+   "ev": "session",
+   "rows": 1450
+  },
+  {
+   "id": 42,
+   "date": "2026-03-31",
+   "tool": "EMBER",
+   "sector": "团队与协作",
+   "title": "拆分跨角色任务",
+   "req": "拆分跨角色任务",
+   "deliv": "handoff.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 43,
+   "date": "2026-04-02",
+   "tool": "ATLAS",
+   "sector": "数据与度量",
+   "title": "生成月度趋势摘要",
+   "req": "生成月度趋势摘要",
+   "deliv": "review.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 44,
+   "date": "2026-04-04",
+   "tool": "MOSS",
+   "sector": "内容与传播",
+   "title": "校对长图文标点",
+   "req": "校对长图文标点",
+   "deliv": "run-notes.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 45,
+   "date": "2026-04-06",
+   "tool": "BEACON",
+   "sector": "工具与自动化",
+   "title": "整理依赖升级影响",
+   "req": "整理依赖升级影响",
+   "deliv": "index.html",
+   "ev": "session",
+   "rows": 717
+  },
+  {
+   "id": 46,
+   "date": "2026-04-10",
+   "tool": "EMBER",
+   "sector": "教育与培训",
+   "title": "录制 10 分钟导览",
+   "req": "录制 10 分钟导览",
+   "deliv": "diff-report.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 47,
+   "date": "2026-04-11",
+   "tool": "EMBER",
+   "sector": "团队与协作",
+   "title": "对齐评审口径",
+   "req": "对齐评审口径",
+   "deliv": "run-notes.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 48,
+   "date": "2026-04-13",
+   "tool": "INDIGO",
+   "sector": "交付与归档",
+   "title": "归档评审记录",
+   "req": "归档评审记录",
+   "deliv": "index.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 49,
+   "date": "2026-04-15",
+   "tool": "LUMEN",
+   "sector": "研究与洞察",
+   "title": "访谈录音转写与校对",
+   "req": "访谈录音转写与校对",
+   "deliv": "index.html",
+   "ev": "session",
+   "rows": 2087
+  },
+  {
+   "id": 50,
+   "date": "2026-04-17",
+   "tool": "INDIGO",
+   "sector": "工具与自动化",
+   "title": "建立本地预览命令",
+   "req": "建立本地预览命令",
+   "deliv": "demo.json",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 51,
+   "date": "2026-04-19",
+   "tool": "CIRRUS",
+   "sector": "研究与洞察",
+   "title": "绘制用户旅程关键节点",
+   "req": "绘制用户旅程关键节点",
+   "deliv": "review.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 52,
+   "date": "2026-04-21",
+   "tool": "FATHOM",
+   "sector": "研究与洞察",
+   "title": "归纳可用性测试观察",
+   "req": "归纳可用性测试观察",
+   "deliv": "demo.json",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 53,
+   "date": "2026-04-23",
+   "tool": "ORBIT",
+   "sector": "原型与实现",
+   "title": "校准动效时长与缓动",
+   "req": "校准动效时长与缓动",
+   "deliv": "handoff.md",
+   "ev": "session",
+   "rows": 1988
+  },
+  {
+   "id": 54,
+   "date": "2026-04-26",
+   "tool": "HELIX",
+   "sector": "质量与合规",
+   "title": "检查外链与失效资源",
+   "req": "检查外链与失效资源",
+   "deliv": "spec-v1.2.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 55,
+   "date": "2026-04-28",
+   "tool": "BEACON",
+   "sector": "内容与传播",
+   "title": "生成短视频分镜草案",
+   "req": "生成短视频分镜草案",
+   "deliv": "summary.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 56,
+   "date": "2026-04-30",
+   "tool": "ATLAS",
+   "sector": "界面与交互",
+   "title": "检查焦点顺序与可达性",
+   "req": "检查焦点顺序与可达性",
+   "deliv": "review.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 57,
+   "date": "2026-05-02",
+   "tool": "XENON",
+   "sector": "交付与归档",
+   "title": "更新项目时间线",
+   "req": "更新项目时间线",
+   "deliv": "review.html",
+   "ev": "session",
+   "rows": 1163
+  },
+  {
+   "id": 58,
+   "date": "2026-05-04",
+   "tool": "ATLAS",
+   "sector": "内容与传播",
+   "title": "归档素材授权记录",
+   "req": "归档素材授权记录",
+   "deliv": "run-notes.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 59,
+   "date": "2026-05-06",
+   "tool": "HELIX",
+   "sector": "工具与自动化",
+   "title": "排查字体加载失败",
+   "req": "排查字体加载失败",
+   "deliv": "handoff.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 60,
+   "date": "2026-05-08",
+   "tool": "GLYPH",
+   "sector": "质量与合规",
+   "title": "复核多端渲染差异",
+   "req": "复核多端渲染差异",
+   "deliv": "demo.json",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 61,
+   "date": "2026-05-10",
+   "tool": "CIRRUS",
+   "sector": "知识资产",
+   "title": "建立项目索引页",
+   "req": "建立项目索引页",
+   "deliv": "handoff.md",
+   "ev": "session",
+   "rows": 1292
+  },
+  {
+   "id": 62,
+   "date": "2026-05-12",
+   "tool": "CIRRUS",
+   "sector": "工具与自动化",
+   "title": "统一脚本输出格式",
+   "req": "统一脚本输出格式",
+   "deliv": "handoff.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 63,
+   "date": "2026-05-14",
+   "tool": "RIFT",
+   "sector": "内容与传播",
+   "title": "重写 onboarding 文案",
+   "req": "重写 onboarding 文案",
+   "deliv": "diff-report.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 64,
+   "date": "2026-05-16",
+   "tool": "ATLAS",
+   "sector": "工具与自动化",
+   "title": "整理凭证存放规范",
+   "req": "整理凭证存放规范",
+   "deliv": "index.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 65,
+   "date": "2026-05-19",
+   "tool": "SOL",
+   "sector": "数据与度量",
+   "title": "清洗重复记录",
+   "req": "清洗重复记录",
+   "deliv": "run-notes.md",
+   "ev": "session",
+   "rows": 1466
+  },
+  {
+   "id": 66,
+   "date": "2026-05-20",
+   "tool": "GLYPH",
+   "sector": "研究与洞察",
+   "title": "整理桌面研究的 12 条结论",
+   "req": "整理桌面研究的 12 条结论",
+   "deliv": "handoff.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 67,
+   "date": "2026-05-22",
+   "tool": "PULSE",
+   "sector": "原型与实现",
+   "title": "整理原型交付说明",
+   "req": "整理原型交付说明",
+   "deliv": "handoff.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 68,
+   "date": "2026-05-24",
+   "tool": "INDIGO",
+   "sector": "教育与培训",
+   "title": "拆解示例任务",
+   "req": "拆解示例任务",
+   "deliv": "demo.json",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 69,
+   "date": "2026-05-27",
+   "tool": "BEACON",
+   "sector": "品牌与叙事",
+   "title": "生成社媒简介短版",
+   "req": "生成社媒简介短版",
+   "deliv": "diff-report.html",
+   "ev": "session",
+   "rows": 276
+  },
+  {
+   "id": 70,
+   "date": "2026-05-28",
+   "tool": "HELIX",
+   "sector": "原型与实现",
+   "title": "修复原型路由回退",
+   "req": "修复原型路由回退",
+   "deliv": "run-notes.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 71,
+   "date": "2026-06-01",
+   "tool": "FATHOM",
+   "sector": "原型与实现",
+   "title": "生成多语言占位文案",
+   "req": "生成多语言占位文案",
+   "deliv": "run-notes.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 72,
+   "date": "2026-06-02",
+   "tool": "DELTA",
+   "sector": "内容与传播",
+   "title": "统一术语与缩写",
+   "req": "统一术语与缩写",
+   "deliv": "handoff.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 73,
+   "date": "2026-06-04",
+   "tool": "ATLAS",
+   "sector": "内容与传播",
+   "title": "整理 FAQ 与边界条件",
+   "req": "整理 FAQ 与边界条件",
+   "deliv": "demo.json",
+   "ev": "session",
+   "rows": 2344
+  },
+  {
+   "id": 74,
+   "date": "2026-06-06",
+   "tool": "BEACON",
+   "sector": "原型与实现",
+   "title": "压测长列表滚动",
+   "req": "压测长列表滚动",
+   "deliv": "review.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 75,
+   "date": "2026-06-09",
+   "tool": "KITE",
+   "sector": "界面与交互",
+   "title": "统一间距与字号阶梯",
+   "req": "统一间距与字号阶梯",
+   "deliv": "run-notes.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 76,
+   "date": "2026-06-10",
+   "tool": "BEACON",
+   "sector": "品牌与叙事",
+   "title": "统一中英文标点规范",
+   "req": "统一中英文标点规范",
+   "deliv": "review.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 77,
+   "date": "2026-06-12",
+   "tool": "EMBER",
+   "sector": "知识资产",
+   "title": "整理决策记录",
+   "req": "整理决策记录",
+   "deliv": "review.html",
+   "ev": "session",
+   "rows": 663
+  },
+  {
+   "id": 78,
+   "date": "2026-06-15",
+   "tool": "JUNO",
+   "sector": "界面与交互",
+   "title": "整理图标使用清单",
+   "req": "整理图标使用清单",
+   "deliv": "diff-report.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 79,
+   "date": "2026-06-16",
+   "tool": "FATHOM",
+   "sector": "品牌与叙事",
+   "title": "校正色彩使用场景",
+   "req": "校正色彩使用场景",
+   "deliv": "diff-report.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 80,
+   "date": "2026-06-18",
+   "tool": "GLYPH",
+   "sector": "内容与传播",
+   "title": "输出内容日历",
+   "req": "输出内容日历",
+   "deliv": "review.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 81,
+   "date": "2026-06-20",
+   "tool": "DELTA",
+   "sector": "知识资产",
+   "title": "归档复盘笔记",
+   "req": "归档复盘笔记",
+   "deliv": "summary.md",
+   "ev": "session",
+   "rows": 797
+  },
+  {
+   "id": 82,
+   "date": "2026-06-22",
+   "tool": "GLYPH",
+   "sector": "质量与合规",
+   "title": "整理验收标准",
+   "req": "整理验收标准",
+   "deliv": "index.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 83,
+   "date": "2026-06-24",
+   "tool": "BEACON",
+   "sector": "品牌与叙事",
+   "title": "归档品牌资产包",
+   "req": "归档品牌资产包",
+   "deliv": "index.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 84,
+   "date": "2026-06-28",
+   "tool": "NOVA",
+   "sector": "原型与实现",
+   "title": "拆分手势与快捷键",
+   "req": "拆分手势与快捷键",
+   "deliv": "handoff.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 85,
+   "date": "2026-06-29",
+   "tool": "CIRRUS",
+   "sector": "数据与度量",
+   "title": "对比两版指标定义",
+   "req": "对比两版指标定义",
+   "deliv": "review.html",
+   "ev": "session",
+   "rows": 2118
+  },
+  {
+   "id": 86,
+   "date": "2026-07-01",
+   "tool": "BEACON",
+   "sector": "质量与合规",
+   "title": "编写回归用例",
+   "req": "编写回归用例",
+   "deliv": "demo.json",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 87,
+   "date": "2026-07-03",
+   "tool": "HELIX",
+   "sector": "研究与洞察",
+   "title": "复核样本配额与招募条件",
+   "req": "复核样本配额与招募条件",
+   "deliv": "index.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 88,
+   "date": "2026-07-05",
+   "tool": "QUARTZ",
+   "sector": "数据与度量",
+   "title": "输出异常波动说明",
+   "req": "输出异常波动说明",
+   "deliv": "run-notes.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 89,
+   "date": "2026-07-07",
+   "tool": "VALE",
+   "sector": "界面与交互",
+   "title": "输出界面走查记录",
+   "req": "输出界面走查记录",
+   "deliv": "demo.json",
+   "ev": "session",
+   "rows": 2399
+  },
+  {
+   "id": 90,
+   "date": "2026-07-09",
+   "tool": "JUNO",
+   "sector": "研究与洞察",
+   "title": "建立研究证据索引",
+   "req": "建立研究证据索引",
+   "deliv": "diff-report.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 91,
+   "date": "2026-07-11",
+   "tool": "MOSS",
+   "sector": "团队与协作",
+   "title": "更新协作约定",
+   "req": "更新协作约定",
+   "deliv": "index.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 92,
+   "date": "2026-07-14",
+   "tool": "FATHOM",
+   "sector": "团队与协作",
+   "title": "整理阻塞项与责任人",
+   "req": "整理阻塞项与责任人",
+   "deliv": "run-notes.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 93,
+   "date": "2026-07-15",
+   "tool": "GLYPH",
+   "sector": "工具与自动化",
+   "title": "修复时区导致的日期偏移",
+   "req": "修复时区导致的日期偏移",
+   "deliv": "summary.md",
+   "ev": "session",
+   "rows": 118
+  },
+  {
+   "id": 94,
+   "date": "2026-07-17",
+   "tool": "BEACON",
+   "sector": "交付与归档",
+   "title": "校对发布说明",
+   "req": "校对发布说明",
+   "deliv": "spec-v1.2.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 95,
+   "date": "2026-07-20",
+   "tool": "INDIGO",
+   "sector": "知识资产",
+   "title": "校对知识库链接",
+   "req": "校对知识库链接",
+   "deliv": "review.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 96,
+   "date": "2026-07-21",
+   "tool": "INDIGO",
+   "sector": "数据与度量",
+   "title": "建立指标字典",
+   "req": "建立指标字典",
+   "deliv": "spec-v1.2.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 97,
+   "date": "2026-07-24",
+   "tool": "CIRRUS",
+   "sector": "团队与协作",
+   "title": "复盘一次返工",
+   "req": "复盘一次返工",
+   "deliv": "review.html",
+   "ev": "session",
+   "rows": 1051
+  },
+  {
+   "id": 98,
+   "date": "2026-07-26",
+   "tool": "TIDE",
+   "sector": "界面与交互",
+   "title": "修正深色模式对比度",
+   "req": "修正深色模式对比度",
+   "deliv": "demo.json",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 99,
+   "date": "2026-07-28",
+   "tool": "ORBIT",
+   "sector": "团队与协作",
+   "title": "建立共享术语表",
+   "req": "建立共享术语表",
+   "deliv": "run-notes.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 100,
+   "date": "2026-07-30",
+   "tool": "PULSE",
+   "sector": "知识资产",
+   "title": "合并重复条目",
+   "req": "合并重复条目",
+   "deliv": "spec-v1.2.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 101,
+   "date": "2026-08-01",
+   "tool": "GLYPH",
+   "sector": "原型与实现",
+   "title": "整理原型验收清单",
+   "req": "整理原型验收清单",
+   "deliv": "summary.md",
+   "ev": "session",
+   "rows": 380
+  },
+  {
+   "id": 102,
+   "date": "2026-08-03",
+   "tool": "FATHOM",
+   "sector": "内容与传播",
+   "title": "校对多语言版本",
+   "req": "校对多语言版本",
+   "deliv": "spec-v1.2.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 103,
+   "date": "2026-08-06",
+   "tool": "JUNO",
+   "sector": "教育与培训",
+   "title": "编写常见问题清单",
+   "req": "编写常见问题清单",
+   "deliv": "spec-v1.2.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 104,
+   "date": "2026-08-07",
+   "tool": "ATLAS",
+   "sector": "教育与培训",
+   "title": "校对培训材料",
+   "req": "校对培训材料",
+   "deliv": "run-notes.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 105,
+   "date": "2026-08-09",
+   "tool": "NOVA",
+   "sector": "教育与培训",
+   "title": "设计练习与验收点",
+   "req": "设计练习与验收点",
+   "deliv": "spec-v1.2.md",
+   "ev": "session",
+   "rows": 1831
+  },
+  {
+   "id": 106,
+   "date": "2026-08-12",
+   "tool": "JUNO",
+   "sector": "教育与培训",
+   "title": "整理反馈与改进项",
+   "req": "整理反馈与改进项",
+   "deliv": "review.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 107,
+   "date": "2026-08-13",
+   "tool": "EMBER",
+   "sector": "知识资产",
+   "title": "补充术语出处",
+   "req": "补充术语出处",
+   "deliv": "review.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 108,
+   "date": "2026-08-15",
+   "tool": "CIRRUS",
+   "sector": "团队与协作",
+   "title": "梳理交接边界",
+   "req": "梳理交接边界",
+   "deliv": "review.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 109,
+   "date": "2026-08-18",
+   "tool": "ATLAS",
+   "sector": "工具与自动化",
+   "title": "清理临时文件与端口",
+   "req": "清理临时文件与端口",
+   "deliv": "diff-report.html",
+   "ev": "session",
+   "rows": 2010
+  },
+  {
+   "id": 110,
+   "date": "2026-08-20",
+   "tool": "BEACON",
+   "sector": "工具与自动化",
+   "title": "记录一次未解释的退出",
+   "req": "记录一次未解释的退出",
+   "deliv": "demo.json",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 111,
+   "date": "2026-08-22",
+   "tool": "BEACON",
+   "sector": "质量与合规",
+   "title": "抽查文案与截图一致性",
+   "req": "抽查文案与截图一致性",
+   "deliv": "diff-report.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 112,
+   "date": "2026-08-24",
+   "tool": "CIRRUS",
+   "sector": "知识资产",
+   "title": "整理模板与片段",
+   "req": "整理模板与片段",
+   "deliv": "summary.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 113,
+   "date": "2026-08-26",
+   "tool": "ATLAS",
+   "sector": "知识资产",
+   "title": "标注待验证结论",
+   "req": "标注待验证结论",
+   "deliv": "review.html",
+   "ev": "session",
+   "rows": 781
+  },
+  {
+   "id": 114,
+   "date": "2026-08-29",
+   "tool": "DELTA",
+   "sector": "教育与培训",
+   "title": "更新课程索引",
+   "req": "更新课程索引",
+   "deliv": "handoff.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 115,
+   "date": "2026-08-31",
+   "tool": "HELIX",
+   "sector": "交付与归档",
+   "title": "整理风险与依赖清单",
+   "req": "整理风险与依赖清单",
+   "deliv": "run-notes.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 116,
+   "date": "2026-09-01",
+   "tool": "ATLAS",
+   "sector": "界面与交互",
+   "title": "归纳弹窗优先级规则",
+   "req": "归纳弹窗优先级规则",
+   "deliv": "diff-report.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 117,
+   "date": "2026-09-03",
+   "tool": "GLYPH",
+   "sector": "内容与传播",
+   "title": "撰写空状态提示语",
+   "req": "撰写空状态提示语",
+   "deliv": "diff-report.html",
+   "ev": "session",
+   "rows": 1893
+  },
+  {
+   "id": 118,
+   "date": "2026-09-05",
+   "tool": "NOVA",
+   "sector": "研究与洞察",
+   "title": "对比三套信息架构",
+   "req": "对比三套信息架构",
+   "deliv": "index.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 119,
+   "date": "2026-09-08",
+   "tool": "FATHOM",
+   "sector": "界面与交互",
+   "title": "建立页面状态矩阵",
+   "req": "建立页面状态矩阵",
+   "deliv": "handoff.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 120,
+   "date": "2026-09-10",
+   "tool": "QUARTZ",
+   "sector": "团队与协作",
+   "title": "整理异步沟通模板",
+   "req": "整理异步沟通模板",
+   "deliv": "diff-report.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 121,
+   "date": "2026-09-11",
+   "tool": "BEACON",
+   "sector": "品牌与叙事",
+   "title": "撰写发布口径 Q&A",
+   "req": "撰写发布口径 Q&A",
+   "deliv": "review.html",
+   "ev": "session",
+   "rows": 686
+  },
+  {
+   "id": 122,
+   "date": "2026-09-14",
+   "tool": "DELTA",
+   "sector": "交付与归档",
+   "title": "输出交接文档",
+   "req": "输出交接文档",
+   "deliv": "review.html",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 123,
+   "date": "2026-09-16",
+   "tool": "CIRRUS",
+   "sector": "数据与度量",
+   "title": "核对样本量与置信区间",
+   "req": "核对样本量与置信区间",
+   "deliv": "handoff.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 124,
+   "date": "2026-09-18",
+   "tool": "SOL",
+   "sector": "研究与洞察",
+   "title": "输出研究摘要",
+   "req": "输出研究摘要",
+   "deliv": "spec-v1.2.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 125,
+   "date": "2026-09-20",
+   "tool": "ATLAS",
+   "sector": "界面与交互",
+   "title": "复核响应式断点",
+   "req": "复核响应式断点",
+   "deliv": "diff-report.html",
+   "ev": "session",
+   "rows": 1078
+  },
+  {
+   "id": 126,
+   "date": "2026-09-22",
+   "tool": "ORBIT",
+   "sector": "质量与合规",
+   "title": "复核版本号与构建标识",
+   "req": "复核版本号与构建标识",
+   "deliv": "spec-v1.2.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 127,
+   "date": "2026-09-24",
+   "tool": "CIRRUS",
+   "sector": "交付与归档",
+   "title": "清理过期草稿",
+   "req": "清理过期草稿",
+   "deliv": "handoff.md",
+   "ev": "ledger",
+   "rows": 0
+  },
+  {
+   "id": 128,
+   "date": "2026-09-26",
+   "tool": "FATHOM",
+   "sector": "研究与洞察",
+   "title": "标注异常样本并说明原因",
+   "req": "标注异常样本并说明原因",
+   "deliv": "handoff.md",
+   "ev": "ledger",
+   "rows": 0
+  }
+ ]
+}

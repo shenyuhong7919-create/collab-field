@@ -1,0 +1,52 @@
+COLLAB FIELD / 协作光场
+Copyright (c) 2026 一只黄学长
+
+This repository is licensed under the PolyForm Noncommercial License 1.0.0.
+See LICENSE. Noncommercial use only. Commercial use is prohibited.
+
+This project is a derivative of, and includes material from, the following
+works. Their notices must be preserved when you redistribute this repository
+or any part of it.
+
+------------------------------------------------------------------------
+1. HALOFLUX — rendering engine and audiovisual design
+------------------------------------------------------------------------
+Copyright (c) 2026 Ryder191 (RYDER CODE / Ms MAIKEBAIs CAT). All rights reserved.
+https://github.com/Ryder191/haloflux
+Licensed under the PolyForm Noncommercial License 1.0.0.
+
+Required Notice: Copyright (c) 2026 Ryder191 (RYDER CODE / Ms MAIKEBAIs CAT) - https://github.com/Ryder191/haloflux
+Required Notice: Noncommercial use only. Any commercial use is strictly prohibited. No commercial licenses are offered.
+
+The file src/haloflux-lab.html retains the upstream copyright and license header.
+
+------------------------------------------------------------------------
+2. ION 离子回路 / agent-display v8.0 theme 08 — palette reference
+------------------------------------------------------------------------
+Copyright (c) 2026 赛博老爸. All rights reserved.
+https://github.com/cyberdaddyleo/agent-display
+Licensed under the PolyForm Noncommercial License 1.0.0.
+
+Required Notice: Copyright (c) 2026 赛博老爸
+
+The 12 c0/hi/fil palettes in data/palettes.json are a re-named, re-ordered
+reference to that theme. The palette values themselves remain the original
+designer's work.
+
+------------------------------------------------------------------------
+3. JetBrains Mono — typeface
+------------------------------------------------------------------------
+Copyright (c) 2020 The JetBrains Mono Project Authors.
+Licensed under the SIL Open Font License 1.1.
+Loaded from Google Fonts; no font binary is redistributed in this repository.
+
+------------------------------------------------------------------------
+4. audio/bgm.m4a — original ambient loop
+------------------------------------------------------------------------
+Generated for this repository. Released under CC0 1.0 Universal.
+You may replace it with your own licensed audio; see audio/README.md.
+
+------------------------------------------------------------------------
+No commercial license is offered for HALOFLUX or the ION palette source.
+If you need a permissive or commercial license, you must replace both the
+rendering engine and the palette source with works you have rights to use.
